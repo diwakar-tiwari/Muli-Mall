@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Remove Background</title>
+</head>
+<body>
+    <h1>Realtime Image Processor Tool</h1>
+  <div class="p1">
+    <h2>Put your Green Background Image Here</h2>
+    <canvas id="pic1"></canvas>
+    <p>
+        Forward image: <input type="file" class="myButton" name="select" title="Select an Image" style="display: none;" id="fgFile" multiple="false" onChange="frontimg()">
+       <button class="myButton"><label for="fgFile">Choose a file</label> </button>
+      
+    </p>
+   </div>
+   <div class="p2">
+    <h2>Put your Background Image Here</h2>
+    <canvas id="pic2"></canvas>
+    <p>
+        Background image: <input type="file" name="select" title="Select an Image" style="display: none;" id="bgFile" multiple="false" onChange="backimg()">
+       <button class="myButton"><label for="bgFile">Choose a file</label> </button>
+    </p>
+    </div> <br>
+    <div>
+    <input type="button" class="mergeButton" value="Merge Image" onclick="merge()">
+    </div>
+     
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+    <script src="chroma.js"></script>
+</body>
+</html>

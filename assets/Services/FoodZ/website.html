@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodZ</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" media="screen and (max-width:1355px)" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo1.png" alt="FoodZ.com">
+        </div>
+        <ul>
+            <li class="items"><a href="#home">Home</a></li>
+            <li class="items"><a href="#services">Services</a></li>
+            <li class="items"><a href="#about-section">About Us</a></li>
+            <li class="items"><a href="#contact">Pre-Register</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to FoodZ</h1>
+        <p >Our website will be launching soon.</p>
+        <p>Hurry up and register now !</p>
+        <p>First 100 pre-registered users will get 35% off</p>
+      
+        <!-- <button class="btn">Order Now</button> -->
+    </section>
+
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/lasagna (2).jpg">
+                <h2 class="h-secondary center">Snacks & Meals</h2>
+                <p> Choose your favorite food from our menu with wide range of snacks and food from different cuisines such as Italian, Mexican, Indian, Turkish, Chinese etc.Numerous options of delicious food for vegans as well</p>
+            </div>
+
+            <div class="box">
+                <img src="img/eclair.jpg">
+                <h2 class="h-secondary center">Desserts</h2>
+                <p> Biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, sweet soups, tarts and fruit salad.Indian Sweets are the speciality of our restaurant.Choose your favorite dessert from our wide range of menu. </p>
+            </div>
+
+            <div class="box">
+                <img src="img/food del.png">
+                <h2 class="h-secondary center">Home Delivery</h2>
+                <p>You can order your food from your home within minutes with no order value. First food delivery free for every customer. Home Delivery free within 6km. Fast food delivery.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="about-section">
+        <h1 class="h-primary center">About Us</h1>
+        <div id="about">
+            <div class="about-para">
+                <p class="para">FoodZ  is now launching an online food ordering and delivery platform. FoodZ is a restaurant chain  which was found in 2017 and now is operating in 250 North Indian cities.In the coming years, FoodZ will start its resturant chains in other parts of India too and soon food delivery services will be available not only for North Indian cities but also for other cities as well</p>
+                    </div>
+                    </div>
+                    </section>
+
+    <section id="contact">
+                        <h1 class="primary ">Pre-Register</h1>
+                        <div id="contact-box">
+                            <form action="insert.php" method="POST">
+                                <div class="form-group">
+                                    <label for="name">Name: </label>
+                                    <input type="text" name="username" id="name" placeholder="Enter your name" required>
+                                </div>
+<!-- 
+                                <div class="form-group">
+                                    <label for="name">Last Name: </label>
+                                    <input type="text" name="lastname" id="lname" placeholder="Enter your last name" required>
+                                </div> -->
+
+                                <div class="form-group">
+                                    <label for="email">Email: </label>
+                                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="pw">Password</label>
+                                    <input type="password" name="password"  id="pw" placeholder="Enter your password" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number: </label>
+                                    <input type="phone" name="phnumber" id="phone" placeholder="Enter your phone" required>
+                                </div>
+                               
+
+                                
+                            </div>
+                                <div class="form">
+                                    <input type="submit" name="submit" id="submit">
+                                </div>
+                                
+                            </form>
+                    </section>  
+
+<footer class="center">
+Copyright &copy; www.FoodZ.com. All rights reserved!
+</footer>
+</body>
+
+</html>

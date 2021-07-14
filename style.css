@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #ffffff;
+}
+
+.login{
+    width: 430px;
+    height: 730px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: linear-gradient(-45deg, rgba(31, 30, 30, 0.22), rgba(255, 255, 255, 0.25));
+    /*background-color: #ecf0f3;*/
+    box-shadow: 13px 13px 20px #c2bcbc, -13px -13px 20px #b9b9c5;        
+    
+    
+}
+
+.logo{
+    background-image: url(assets/img/multimarket.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #ffffff,  0px 0px 0px 5px #ecf0f3,  8px 8px 15px #ffffff,  -8px -8px 15px #fff;
+}
+.title{
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+.sub-title{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+
+.fields{
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.username, .password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #c0bebe, inset -8px -8px 8px #c0bebe;
+}
+
+.fields svg{
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+.login-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    background-color: #302ec5;
+    box-shadow: 3px 3px 8px #c0bebe, -3px -3px 8px #7a7979;
+    transition: all 0.5s;
+}
+.login-button:hover{
+    background-color: #00baf3;
+}
+.login-button:active{
+    background-color: #88ef9e;
+}
+
+.link{
+    padding-top: 0px;
+    text-align: center;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.link a{
+    text-decoration: none;
+    color: rgb(29, 27, 27);
+    font-size: 20px;
+    
+}
+
+
